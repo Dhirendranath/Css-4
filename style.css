@@ -12,3 +12,42 @@
 .a:hover+.b{
   background-color: red;
 } */
+
+/* Header Start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: red;
+
+
+}
+.menu ul li{
+  float: left;
+
+
+}
+.menu ul li a{
+  padding:14px 10px;
+  display: block;
+  color: wheat;
+  text-decoration: none;
+}
+.menu ul li a:hover{
+  background-color: tomato;
+  color: white;
+}
+/* End Header */
+
+.blog1{
+  border: 1px solid red;
+  width: 30%;
+  margin: 5px;
+  float: left;
+  background-color: red;
+  text-align: center;
+}
